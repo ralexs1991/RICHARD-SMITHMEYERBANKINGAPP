@@ -6,7 +6,8 @@ const Spa = () => {
       //async 
       function getData() {
           //const response = await fetch('./users.json');
-          const json     = await response.json();
+          const json     =  //await
+                response.json();
           setData(json);
           setLoaded(true);
       }
