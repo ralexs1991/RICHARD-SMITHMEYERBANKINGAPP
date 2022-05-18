@@ -1,3 +1,5 @@
+const HashRouter  = ReactRouterDOM.HashRouter;
+
 function Spa (){
   const [data, setData] = React.useState(null);
   const [loaded, setLoaded] = React.useState(false);
