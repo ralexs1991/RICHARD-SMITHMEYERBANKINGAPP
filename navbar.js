@@ -1,4 +1,3 @@
-import React from 'react';
 import {Navbar, Container, Nav} from 'react-bootstrap';
 import {UserContext} from '../context';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
