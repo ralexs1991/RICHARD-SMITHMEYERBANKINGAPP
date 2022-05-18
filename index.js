@@ -20,14 +20,14 @@ function Spa (){
         <NavBar/>        
         <UserContext.Provider value={{users:[{name:'abel',email:'abel@mit.edu',password:'secret',balance:100}]}}>
           <div className="container" style={{padding: "20px"}}>
-            <Route path="/Home/" component={Home} />
-            <Route path="/CreateAccount/" component={CreateAccount} />
-            <Route path="/login/" component={Login} />
-            <Route path="/deposit/" component={Deposit} />
-            <Route path="/withdraw/" component={Withdraw} />
+            <Route exact path="/Home/" component={Home} />
+            <Route exact path="/CreateAccount/" component={CreateAccount} />
+            <Route exact path="/login/" component={Login} />
+            <Route exact path="/deposit/" component={Deposit} />
+            <Route exact path="/withdraw/" component={Withdraw} />
             {}
-            <Route path="/balance/" component={Balance} />
-            <Route path="/alldata/" component={AllData} />
+            <Route exact path="/balance/" component={Balance} />
+            <Route exact path="/alldata/" component={AllData} />
           </div>
         </UserContext.Provider>
       </div>
