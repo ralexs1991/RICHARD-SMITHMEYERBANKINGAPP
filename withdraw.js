@@ -1,6 +1,3 @@
-import Card from '../card';
-import {UserContext} from '../page';
-
 function Withdrawl() { 
   const [show, setShow]         = React.useState(true);
   const [isValid, setIsValid]   = React.useState(false);
