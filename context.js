@@ -7,8 +7,8 @@ function useBankContext() {
 function ContextProvider({ children }) {
   const [users, setUsers] = React.useState([
     {
-      name: 'Kenshin Himura',
-      email: 'rurouni@mit.edu',
+      name: 'Clark Kent',
+      email: 'CKent@dailyglobe.com',
       password: '12345678',
       balance: 100,
       loged: false,
