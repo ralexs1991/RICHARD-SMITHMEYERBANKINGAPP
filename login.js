@@ -1,7 +1,4 @@
-import Card from './card';
-import { UserContext } from './page';
-
-function Login(){
+ifunction Login(){
   const [show, setShow]         = React.useState(true);
   const [logInStatus, setLogInStatus]     = React.useState('');
   const [valid, setValid]       = React.useState('');
