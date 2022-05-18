@@ -4,7 +4,7 @@ const Spa = () => {
 
   React.useEffect(() => {
       async function getData() {
-          const response = await fetch('./users.json');
+          //const response = await fetch('./users.json');
           const json     = await response.json();
           setData(json);
           setLoaded(true);
