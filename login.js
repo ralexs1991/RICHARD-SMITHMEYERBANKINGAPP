@@ -1,4 +1,4 @@
-ifunction Login(){
+function Login(){
   const [show, setShow]         = React.useState(true);
   const [logInStatus, setLogInStatus]     = React.useState('');
   const [valid, setValid]       = React.useState('');
