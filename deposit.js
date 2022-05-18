@@ -17,7 +17,7 @@ function Deposit(name, email, password, log, amount) {
   }
 
   console.log('user', user);
-}
+
 
 balance = parseFloat(balance).toFixed(2);
 
@@ -79,4 +79,4 @@ function clearForm (){
       />    
     </>
   )
-
+        }
