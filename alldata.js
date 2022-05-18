@@ -1,4 +1,3 @@
-import React from 'react';
 import Card from '../components/card';
 import {Table} from 'react-bootstrap';
 import {UserContext} from '../page';
